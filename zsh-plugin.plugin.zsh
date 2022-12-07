@@ -17,3 +17,7 @@ alias npr="npm run"
 alias ltr="ls -ltr"
 alias ltra="ls -ltra"
 alias glist="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
+
+echo '# Set PATH, MANPATH, etc., for Homebrew.'
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+eval "$(/opt/homebrew/bin/brew shellenv)"
