@@ -1,5 +1,5 @@
 # set Android ENV variables
-export JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+export JAVA_HOME=/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk@11/include"
 export ANDROID_HOME=$HOME/Library/Android/sdk
