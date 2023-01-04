@@ -21,3 +21,8 @@ alias glist="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD)
 echo '# Set PATH, MANPATH, etc., for Homebrew.'
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# maven
+# GIT versioning plugin disable
+export VERSIONING_DISABLE=true
+
